@@ -1,10 +1,10 @@
 def faa(n):
-    sumi=2
+    sumi=0
     a =1
-    b = 1
+    b = 0
 
-    for i in range(2,n):
-        a, b = b, a + b
+    for i in range(n):
+        b,a= a + b,b
         sumi+=b
     return sumi
 print(faa(int(input())))
