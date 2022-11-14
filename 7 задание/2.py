@@ -14,4 +14,4 @@ def asve(k):
         b.sort()
         print(b)
 
-asve(int(input()))
+asve(int(input('кол-во чисел в массиве')))

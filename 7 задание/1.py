@@ -13,4 +13,4 @@ def spis(k):
                 max_del_two = del_two
             del_two = 0
     print(max_del_two)
-spis(int(input()))
+spis(int(input('кол-во чисел списка')))
