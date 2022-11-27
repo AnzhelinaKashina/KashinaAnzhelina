@@ -8,7 +8,7 @@ def show_message():
     url = f"https://api.github.com/users/{otv}"
     # делаем запрос и возвращаем json
     user_data = requests.get(url).json()
-    # довольно распечатать данные JSON
+    
     with open("fff.json", "a") as f:
         print('Company:', user_data['company'],file=f)
         print('created_at:', user_data['created_at'],file=f)
