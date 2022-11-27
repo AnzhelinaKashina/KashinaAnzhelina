@@ -1,5 +1,8 @@
 def matris (n):
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0c25beffe0da16d17745148bc206e1088e14d68e
     a=[]
     for i in range(n):
         b=[]
