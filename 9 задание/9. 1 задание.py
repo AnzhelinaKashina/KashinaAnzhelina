@@ -1,6 +1,5 @@
 def matris (n):
-    with open('', 'r') as f:
-        matricafff = [[int(num) for num in line.split(',')] for line in f]
+
     a=[]
     for i in range(n):
         b=[]

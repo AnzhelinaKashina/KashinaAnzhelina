@@ -1,6 +1,7 @@
 def matris (n):
     with open('КАО_у-222_vvod1зад.txt', 'r') as f:
         a = [[int(num) for num in line.split(',')] for line in f]
+    print(a)
     #a=[]
     #for i in range(n):
      #   b=[]
